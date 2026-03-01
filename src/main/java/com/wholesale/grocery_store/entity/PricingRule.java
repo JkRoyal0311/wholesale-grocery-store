@@ -64,5 +64,5 @@ public class PricingRule {
 	public void setIsActive(Boolean isActive) {
 		this.isActive = isActive;
 	}
-    
+	public PricingRule(){}
 }

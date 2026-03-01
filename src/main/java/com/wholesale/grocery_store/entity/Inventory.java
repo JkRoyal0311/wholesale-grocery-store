@@ -15,6 +15,7 @@ public class Inventory {
 		this.reorderLevel = reorderLevel;
 		this.lastUpdated = lastUpdated;
 	}
+    public Inventory(){}
 	public Long getId() {
 		return id;
 	}

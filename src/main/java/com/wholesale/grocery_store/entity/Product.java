@@ -17,6 +17,7 @@ public class Product {
 		this.category = category;
 		this.isActive = isActive;
 	}
+    public Product(){}
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

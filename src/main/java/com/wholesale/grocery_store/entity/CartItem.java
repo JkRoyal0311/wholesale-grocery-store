@@ -1,8 +1,11 @@
 package com.wholesale.grocery_store.entity;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.*;
 import lombok.Data;
 @Entity
 @Table(name = "cart_items")
+
 public class CartItem {
 	
     public CartItem(Long id, Cart cart, Product product, Double quantity, Double priceAtAdded) {
@@ -47,6 +50,8 @@ public class CartItem {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+	@JsonIgnore
+
     @ManyToOne
     @JoinColumn(name = "cart_id")
     private Cart cart;

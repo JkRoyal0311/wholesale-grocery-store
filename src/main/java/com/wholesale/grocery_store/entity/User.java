@@ -58,5 +58,5 @@ public class User {
 		this.role = role;
 		this.isActive = isActive;
 	}
-    
+	public User(){}
 }

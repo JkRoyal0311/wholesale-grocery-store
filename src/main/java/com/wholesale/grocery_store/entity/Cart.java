@@ -8,6 +8,7 @@ public class Cart {
     public Long getId() {
 		return id;
 	}
+    public Cart(){}
 	public void setId(Long id) {
 		this.id = id;
 	}

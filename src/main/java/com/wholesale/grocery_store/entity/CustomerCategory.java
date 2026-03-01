@@ -15,6 +15,7 @@ public class CustomerCategory {
 		this.minMonthlyPurchase = minMonthlyPurchase;
 		this.discountPercentage = discountPercentage;
 	}
+    public CustomerCategory(){}
 	public Long getId() {
 		return id;
 	}

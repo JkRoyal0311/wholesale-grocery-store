@@ -19,6 +19,7 @@ public class Customer {
 		this.totalMonthlyPurchase = totalMonthlyPurchase;
 		this.createdAt = createdAt;
 	}
+    public Customer(){}
 	public Long getId() {
 		return id;
 	}
